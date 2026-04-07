@@ -1,17 +1,17 @@
-# 资源
+# Resources
 
-## 课件 / 录像
+## Slides & recordings
 
-（链接或网盘）
+(Add links or cloud storage.)
 
-## 作业与提交
+## Assignments & submission
 
-（平台链接、说明）
+(Platform links and policies.)
 
-## 工具与环境
+## Tools & environment
 
-（软件、镜像、文档）
+(Software, images, documentation.)
 
-## 常用外链
+## Useful links
 
-（学校系统、讨论区、教材网站等）
+(University systems, forums, textbook sites, etc.)

@@ -1,13 +1,13 @@
-# 第 1 讲
+# Lecture 1
 
-## 课件
+## Slides
 
-- （PDF / 在线幻灯片链接）
+- (PDF / online deck link)
 
-## 补充材料
+## Supplementary reading
 
-- （阅读、代码仓库等）
+- (Readings, code repos, etc.)
 
-## 作业
+## Homework
 
-（如有）
+(If applicable.)

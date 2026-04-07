@@ -1,13 +1,14 @@
 import { defineConfig } from 'vitepress'
 
-// GitHub Actions 中设置 VITE_BASE（如 /仓库名/）；本地开发不设置则为 /
+// CI sets VITE_BASE (e.g. /repo-name/); local dev defaults to /
 const base = process.env.VITE_BASE || '/'
 
 export default defineConfig({
   base,
   title: 'University of York - COM00018I',
-  description: '（在 docs/.vitepress/config.ts 修改站点标题与描述）',
-  lang: 'zh-CN',
+  description: 'Course site for COM00018I — syllabus, schedule, resources, and lecture notes.',
+  lang: 'en-US',
+  appearance: 'dark',
   cleanUrls: true,
   head: [
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
@@ -22,23 +23,23 @@ export default defineConfig({
   themeConfig: {
     logo: '/favicon.svg',
     nav: [
-      { text: '首页', link: '/' },
-      { text: '教学大纲', link: '/syllabus' },
-      { text: '资源', link: '/resources' },
-      { text: '讲义', link: '/lectures/lec01' }
+      { text: 'Home', link: '/' },
+      { text: 'Syllabus', link: '/syllabus' },
+      { text: 'Resources', link: '/resources' },
+      { text: 'Lecture 1', link: '/lectures/lec01' }
     ],
     sidebar: [
       {
-        text: '课程',
+        text: 'Course',
         items: [
-          { text: '首页', link: '/' },
-          { text: '教学大纲', link: '/syllabus' },
-          { text: '资源', link: '/resources' }
+          { text: 'Home', link: '/' },
+          { text: 'Syllabus', link: '/syllabus' },
+          { text: 'Resources', link: '/resources' }
         ]
       },
       {
-        text: '讲义',
-        items: [{ text: '第 1 讲（模板）', link: '/lectures/lec01' }]
+        text: 'Lectures',
+        items: [{ text: 'Lecture 1 (template)', link: '/lectures/lec01' }]
       }
     ],
     socialLinks: [],
@@ -49,13 +50,13 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-    outline: { label: '本页目录', level: [2, 3] },
+    outline: { label: 'On this page', level: [2, 3] },
     docFooter: {
-      prev: '上一页',
-      next: '下一页'
+      prev: 'Previous',
+      next: 'Next'
     },
     lastUpdated: {
-      text: '更新于',
+      text: 'Updated',
       formatOptions: { dateStyle: 'short', timeStyle: 'medium' }
     }
   }

@@ -1,4 +1,4 @@
-/* 主题色与字体：可按学校 VI 修改 */
+/* Brand colours & fonts — adjust to match your institution */
 :root {
   --vp-c-brand-1: #003262;
   --vp-c-brand-2: #00254d;
@@ -21,9 +21,180 @@
   letter-spacing: -0.02em;
 }
 
-/* 首页课程表区域更易读 */
 .vp-doc .schedule-block {
   border-left: 4px solid var(--vp-c-brand-1);
   padding-left: 1rem;
   margin: 1rem 0;
+}
+
+/* --- Course schedule table (syllabus) --- */
+.course-schedule-wrap {
+  overflow-x: auto;
+  margin: 1.25rem 0 2rem;
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+}
+
+.course-schedule-table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+
+.course-schedule-table th,
+.course-schedule-table td {
+  border: 1px solid var(--vp-c-divider);
+  padding: 0.65rem 0.75rem;
+  vertical-align: top;
+  text-align: left;
+}
+
+.course-schedule-table thead th {
+  background: var(--vp-c-bg-soft);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.dark .course-schedule-wrap {
+  background: #0a0a0b;
+  border-color: #2a2a2e;
+}
+
+.dark .course-schedule-table th,
+.dark .course-schedule-table td {
+  border-color: #2f2f35;
+}
+
+.dark .course-schedule-table thead th {
+  background: #121214;
+  color: var(--vp-c-text-1);
+}
+
+.dark .course-schedule-table tbody td {
+  background: #0d0d0f;
+  color: #e8e8ed;
+}
+
+.course-schedule-table .week-cell {
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  background: var(--vp-c-bg-soft);
+}
+
+.dark .course-schedule-table .week-cell {
+  background: #141416;
+}
+
+.course-schedule-table .date-cell {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  color: var(--vp-c-text-2);
+}
+
+.dark .course-schedule-table .date-cell {
+  color: #b4b4c0;
+}
+
+.schedule-row-title {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  color: var(--vp-c-text-1);
+}
+
+.schedule-readings {
+  font-size: 0.8rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 0.45rem;
+}
+
+.schedule-readings a {
+  color: var(--vp-c-brand-1);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.dark .schedule-readings a {
+  color: #6eb3ff;
+}
+
+.schedule-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.schedule-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg);
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.schedule-link:hover {
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-bg-soft);
+}
+
+.dark .schedule-link {
+  background: #1a1a1f;
+  border-color: #3a3a44;
+  color: #eee;
+}
+
+.dark .schedule-link:hover {
+  border-color: #6eb3ff;
+  background: #222228;
+}
+
+.schedule-link .ext {
+  font-size: 0.75em;
+  opacity: 0.85;
+}
+
+.muted-cell {
+  color: var(--vp-c-text-3);
+  text-align: center;
+}
+
+.dark .muted-cell {
+  color: #5c5c68;
+}
+
+.hw-cell,
+.proj-cell {
+  min-width: 6.5rem;
+}
+
+.hw-title {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.due-badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: #2a2a30;
+  color: #f0f0f5;
+  border: 1px solid #3f3f48;
+}
+
+.lab-cell .schedule-row-title,
+.disc-cell .schedule-row-title {
+  margin-bottom: 0.35rem;
 }

@@ -2,23 +2,23 @@
 layout: home
 
 hero:
-  name: 课程名称
-  tagline: （副标题、学期、教师 — 在 docs/index.md 自填）
+  name: COM00018I
+  tagline: University of York — edit subtitle, term, and instructors in docs/index.md
   actions:
     - theme: brand
-      text: 教学大纲
+      text: Syllabus
       link: /syllabus
     - theme: alt
-      text: 资源
+      text: Resources
       link: /resources
 ---
 
-## 课程信息
+## Course information
 
-（时间、地点、答疑、联系方式等）
+Add meeting times, location, office hours, and contact details here.
 
-## 日程与讲次
+## Schedule and lectures
 
-（按周或按次列出链接；可复制 `docs/lectures/lec01.md` 增加新讲次，并在 `docs/.vitepress/config.ts` → `sidebar` 注册）
+Use the [course schedule](/syllabus#course-schedule) on the Syllabus page for week-by-week dates. Duplicate `docs/lectures/lec01.md` for new lectures and register them in `docs/.vitepress/config.ts` → `sidebar`.
 
-- [第 1 讲](/lectures/lec01)
+- [Lecture 1](/lectures/lec01)
