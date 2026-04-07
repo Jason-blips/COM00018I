@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: '[COM00018I] Systems & Devices 3: Advanced Computer Systems'
-  tagline: University of York — edit term and cohort in docs/index.md
+  tagline: Great Guidance in Advanced Computer Systems
 ---
 
 <div class="home-course-meta">
