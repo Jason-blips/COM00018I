@@ -5,8 +5,9 @@ const base = process.env.VITE_BASE || '/'
 
 export default defineConfig({
   base,
-  title: 'University of York - COM00018I',
-  description: 'Course site for COM00018I — syllabus, schedule, resources, and lecture notes.',
+  title: 'COM00018I — Advanced Computer Systems',
+  description:
+    'COM00018I Systems & Devices 3: Advanced Computer Systems — schedule, syllabus, resources, and lecture notes.',
   lang: 'en-US',
   appearance: 'dark',
   cleanUrls: true,
