@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: '课程主页',
+  base:'/COM00018I/'
+  title: 'University of York - COM00018I',
   description: '（在 docs/.vitepress/config.ts 修改站点标题与描述）',
   lang: 'zh-CN',
   cleanUrls: true,
