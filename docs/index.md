@@ -117,9 +117,3 @@ outline: false
 </table>
 
 </div>
-
-<nav class="home-footer-links" aria-label="Course pages">
-  <a href="/syllabus">Syllabus</a>
-  <a href="/resources">Resources</a>
-  <a href="/lectures/lec01">Lecture notes</a>
-</nav>

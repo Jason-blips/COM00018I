@@ -7,13 +7,89 @@
   --vp-c-accent-1: #fdb515;
   --vp-c-accent-2: #e5a512;
   --vp-font-family-base: 'Source Sans 3', 'Segoe UI', system-ui, sans-serif;
+  /* Slightly narrow sidebar — keeps main column readable */
+  --vp-sidebar-width: 264px;
 }
 
 .dark {
-  --vp-c-brand-1: #4d8fd4;
-  --vp-c-brand-2: #6ba3e0;
-  --vp-c-brand-3: #3d7abf;
-  --vp-c-brand-soft: rgba(77, 143, 212, 0.15);
+  --vp-c-brand-1: #58a6ff;
+  --vp-c-brand-2: #79b8ff;
+  --vp-c-brand-3: #388bfd;
+  --vp-c-brand-soft: rgba(88, 166, 255, 0.12);
+}
+
+/* --- Sidebar (single source of nav; top bar has no duplicate links) --- */
+.dark .VPSidebar {
+  background: #0d1117;
+  border-right: 1px solid #21262d;
+}
+
+.dark .VPSidebar #VPSidebarNav.nav {
+  padding: 0.75rem 0.75rem 1.25rem;
+}
+
+.dark #VPSidebarNav .group {
+  padding-top: 0.75rem;
+}
+
+.dark #VPSidebarNav .group:first-child {
+  padding-top: 0;
+}
+
+/* Group headings: Course / Lectures */
+.dark #VPSidebarNav .VPSidebarItem.section-header > .item > .text,
+.dark #VPSidebarNav .VPSidebarItem.level-0 > .item > .text {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #6e7681;
+}
+
+.dark #VPSidebarNav .VPSidebarItem .item .text {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #c9d1d9;
+}
+
+.dark #VPSidebarNav .link {
+  border-radius: 6px;
+  padding: 0.4rem 0.55rem;
+  transition: background 0.12s ease, color 0.12s ease;
+}
+
+.dark #VPSidebarNav .link:hover {
+  background: rgba(88, 166, 255, 0.08);
+  color: #e6edf3;
+}
+
+.dark #VPSidebarNav .link.active,
+.dark .VPSidebar a.link[aria-current='page'] {
+  background: rgba(88, 166, 255, 0.14);
+  color: #58a6ff !important;
+  font-weight: 600;
+}
+
+/* Main column: comfortable line length; never flush against sidebar */
+.VPDoc .content-container {
+  max-width: min(100%, 900px);
+}
+
+.VPNavBarTitle.has-sidebar .title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  max-width: min(100%, 20rem);
+  line-height: 1.25;
+}
+
+/* Right outline: lighter so it does not compete with body text */
+.dark .VPDocAside .outline-link {
+  font-size: 0.8125rem;
+}
+
+.dark .VPDocAside .outline-link.active {
+  color: #58a6ff;
 }
 
 /* Home page — stacked title + Lecture / Practical (Berkeley-style) */
@@ -98,33 +174,6 @@
   margin-top: 0.65rem;
   border-radius: 2px;
   background: linear-gradient(90deg, var(--vp-c-brand-1), transparent);
-}
-
-.home-footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem 1rem;
-  margin: 2.25rem auto 3rem;
-  max-width: 56rem;
-  padding: 0 1.5rem;
-  font-size: 0.9rem;
-}
-
-.home-footer-links a {
-  color: #93c5fd;
-  text-decoration: none;
-  padding: 0.35rem 0.85rem;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  background: rgba(255, 255, 255, 0.04);
-  transition: border-color 0.15s, color 0.15s, background 0.15s;
-}
-
-.home-footer-links a:hover {
-  color: #bfdbfe;
-  border-color: rgba(77, 163, 255, 0.45);
-  background: rgba(77, 163, 255, 0.08);
 }
 
 .vp-doc .schedule-block {

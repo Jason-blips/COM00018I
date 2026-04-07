@@ -23,26 +23,25 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: '/favicon.svg',
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Syllabus', link: '/syllabus' },
-      { text: 'Resources', link: '/resources' },
-      { text: 'Lecture 1', link: '/lectures/lec01' }
-    ],
+    // Top bar: brand + tools only — page links live in the sidebar (no duplicate menus)
+    nav: [],
     sidebar: [
       {
         text: 'Course',
+        collapsed: false,
         items: [
-          { text: 'Home', link: '/' },
+          { text: 'Overview', link: '/' },
           { text: 'Syllabus', link: '/syllabus' },
           { text: 'Resources', link: '/resources' }
         ]
       },
       {
         text: 'Lectures',
-        items: [{ text: 'Lecture 1 (template)', link: '/lectures/lec01' }]
+        collapsed: false,
+        items: [{ text: 'Lecture 1', link: '/lectures/lec01' }]
       }
     ],
+    sidebarMenuLabel: 'Menu',
     socialLinks: [],
     footer: {
       message: '',
