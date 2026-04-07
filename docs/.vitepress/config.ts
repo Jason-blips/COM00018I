@@ -7,7 +7,7 @@ export default defineConfig({
   base,
   title: 'COM00018I — Advanced Computer Systems',
   description:
-    'COM00018I Systems & Devices 3: Advanced Computer Systems — schedule, syllabus, resources, and lecture notes.',
+    'Great Guidance in Advanced Computer Systems — COM00018I course schedule, syllabus, resources, and lecture notes.',
   lang: 'en-US',
   appearance: 'dark',
   cleanUrls: true,
@@ -17,7 +17,7 @@ export default defineConfig({
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap'
       }
     ]
   ],

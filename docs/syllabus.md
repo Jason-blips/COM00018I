@@ -22,4 +22,4 @@
 
 ## Course schedule
 
-The week-by-week **schedule table** (lecture, discussion, lab, HW, project) lives on the **[home page](/)** so it stays in one place. Edit the HTML in `docs/index.md` under the **Schedule** section.
+The week-by-week **schedule table** (lecture, discussion, lab, HW, project) lives on the **[home page](/)** so it stays in one place. Edit the HTML in `docs/index.md` under **Course schedule**.

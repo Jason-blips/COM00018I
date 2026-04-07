@@ -17,42 +17,84 @@
 }
 
 .VPHome .VPHero {
-  padding-bottom: 1rem;
+  padding: 2.5rem 1rem 1.25rem;
 }
 
 .VPHome .VPHero .name {
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  font-size: clamp(1.35rem, 3.2vw, 2.05rem);
-  line-height: 1.25;
-  max-width: 52rem;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  font-size: clamp(2rem, 5.2vw, 3.35rem);
+  line-height: 1.12;
+  max-width: 58rem;
   margin-left: auto;
   margin-right: auto;
-  color: #f5f5f5;
+  color: #fafafa;
+  text-wrap: balance;
 }
 
 .VPHome .VPHero .tagline {
-  max-width: 44rem;
+  max-width: 48rem;
   margin-left: auto;
   margin-right: auto;
-  color: #d4d4dc;
-  font-size: 1.15rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
+  margin-top: 1rem;
+  color: #9ca3af;
+  font-size: clamp(0.95rem, 1.8vw, 1.125rem);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.45;
 }
 
-/* Meta lines under hero (Berkeley-style header) */
+/* Meta card under hero */
 .home-course-meta {
-  max-width: 56rem;
-  margin: 0 auto 1.5rem;
-  padding: 0 1.5rem;
-  font-size: 0.95rem;
-  line-height: 1.55;
-  color: #e0e0e0;
+  max-width: 52rem;
+  margin: 0 auto 2rem;
+  padding: 1rem 1.25rem;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: #d1d5db;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
 }
 
 .home-meta-line {
-  margin: 0.35rem 0;
+  margin: 0.4rem 0;
+}
+
+.home-meta-line:first-child {
+  margin-top: 0;
+}
+
+.home-meta-line:last-child {
+  margin-bottom: 0;
+}
+
+.home-meta-line code {
+  font-size: 0.85em;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.home-section-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 auto 1rem;
+  max-width: 56rem;
+  padding: 0 1.5rem;
+  color: #f3f4f6;
+  border: none;
+}
+
+.home-section-title::after {
+  content: '';
+  display: block;
+  width: 3rem;
+  height: 3px;
+  margin-top: 0.65rem;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--vp-c-brand-1), transparent);
 }
 
 .home-meta-link {
@@ -66,20 +108,40 @@
 }
 
 .home-footer-links {
-  text-align: center;
-  margin: 2rem 0 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1rem;
+  margin: 2.25rem auto 3rem;
+  max-width: 56rem;
+  padding: 0 1.5rem;
   font-size: 0.9rem;
-  color: var(--vp-c-text-2);
 }
 
 .home-footer-links a {
-  color: #4da3ff;
+  color: #93c5fd;
+  text-decoration: none;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+
+.home-footer-links a:hover {
+  color: #bfdbfe;
+  border-color: rgba(77, 163, 255, 0.45);
+  background: rgba(77, 163, 255, 0.08);
 }
 
 .VPHome .vp-doc h2 {
   margin-top: 0.5rem;
   border-top: none;
   padding-top: 0;
+}
+
+.VPHome .VPContent .vp-doc {
+  padding-bottom: 2rem;
 }
 
 .vp-doc .schedule-block {
@@ -91,8 +153,10 @@
 /* --- Course schedule table (syllabus) --- */
 .course-schedule-wrap {
   overflow-x: auto;
-  margin: 1.25rem 0 2rem;
-  border-radius: 8px;
+  margin: 0 auto 2rem;
+  max-width: 72rem;
+  padding: 0 1rem;
+  border-radius: 10px;
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg-soft);
 }

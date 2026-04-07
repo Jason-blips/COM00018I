@@ -2,16 +2,16 @@
 layout: home
 
 hero:
-  name: '[COM00018I] Systems & Devices 3: Advanced Computer Systems'
-  tagline: Great Guidance in Advanced Computer Systems
+  name: Great Guidance in Advanced Computer Systems
+  tagline: '[COM00018I] Systems & Devices 3: Advanced Computer Systems'
 ---
 
 <div class="home-course-meta">
-  <p class="home-meta-line"><strong>Lecture:</strong> (day / time / room — e.g. Monday &amp; Wednesday 2:00–3:15 PM, CSE building)</p>
-  <p class="home-meta-line"><strong>Recordings &amp; materials:</strong> <a href="#" class="home-meta-link">VLE / Panopto (add link)</a><span class="ext" aria-hidden="true"> ↗</span></p>
+  <p class="home-meta-line"><strong>Lecture</strong> — day, time, and room (edit in <code>docs/index.md</code>)</p>
+  <p class="home-meta-line"><strong>Recordings &amp; materials</strong> — <a href="#" class="home-meta-link">VLE / Panopto</a><span class="ext" aria-hidden="true"> ↗</span></p>
 </div>
 
-## Schedule
+<h2 class="home-section-title" id="schedule">Course schedule</h2>
 
 <div class="course-schedule-wrap">
 
@@ -157,4 +157,8 @@ hero:
 
 </div>
 
-<p class="home-footer-links"><a href="/syllabus">Syllabus</a> · <a href="/resources">Resources</a> · <a href="/lectures/lec01">Lecture notes</a></p>
+<nav class="home-footer-links" aria-label="Course pages">
+  <a href="/syllabus">Syllabus</a>
+  <a href="/resources">Resources</a>
+  <a href="/lectures/lec01">Lecture notes</a>
+</nav>
