@@ -20,7 +20,7 @@ outline: false
   <p class="home-info-detail"><a href="#" class="home-room-link">CSE/066</a> Software Lab, Campus East — Computer Science Building (Ian Wand Building)</p>
 
   <p class="home-info-label">Recordings:</p>
-  <p class="home-info-detail"><a href="#" class="home-room-link">VLE / Panopto</a><span class="ext" aria-hidden="true"> ↗</span></p>
+  <p class="home-info-detail"><a href="https://vle.york.ac.uk/" class="home-room-link">VLE / Panopto</a><span class="ext" aria-hidden="true"> ↗</span></p>
 </div>
 
 </div>

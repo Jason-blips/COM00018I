@@ -75,12 +75,47 @@
   max-width: min(100%, 900px);
 }
 
+/* Navbar: title must not run under search — ellipsis + search stays right */
+.VPNavBar .container {
+  gap: 0.75rem 1rem;
+}
+
+.VPNavBarTitle.has-sidebar {
+  min-width: 0;
+  flex-shrink: 1;
+}
+
 .VPNavBarTitle.has-sidebar .title {
   font-size: 0.9375rem;
   font-weight: 600;
   letter-spacing: -0.02em;
-  max-width: min(100%, 20rem);
   line-height: 1.25;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: min(100%, 15rem);
+}
+
+@media (min-width: 960px) {
+  .VPNavBarTitle.has-sidebar .title {
+    max-width: min(100%, 22rem);
+  }
+}
+
+@media (min-width: 1280px) {
+  .VPNavBarTitle.has-sidebar .title {
+    max-width: min(100%, 30rem);
+  }
+}
+
+.VPNavBar .content {
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.VPNavBarSearch {
+  flex-shrink: 0;
 }
 
 /* Right outline: lighter so it does not compete with body text */
