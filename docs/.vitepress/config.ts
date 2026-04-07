@@ -1,7 +1,10 @@
 import { defineConfig } from 'vitepress'
 
+// GitHub Actions 中设置 VITE_BASE（如 /仓库名/）；本地开发不设置则为 /
+const base = process.env.VITE_BASE || '/'
+
 export default defineConfig({
-  base:'/COM00018I/'
+  base,
   title: 'University of York - COM00018I',
   description: '（在 docs/.vitepress/config.ts 修改站点标题与描述）',
   lang: 'zh-CN',
