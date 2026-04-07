@@ -7,8 +7,8 @@
   --vp-c-accent-1: #fdb515;
   --vp-c-accent-2: #e5a512;
   --vp-font-family-base: 'Source Sans 3', 'Segoe UI', system-ui, sans-serif;
-  /* Slightly narrow sidebar — keeps main column readable */
-  --vp-sidebar-width: 264px;
+  /* Wide enough for full site title on one line next to nav links */
+  --vp-sidebar-width: 22rem;
 }
 
 .dark {
@@ -75,38 +75,40 @@
   max-width: min(100%, 900px);
 }
 
-/* Navbar: title must not run under search — ellipsis + search stays right */
+/* Navbar: logo + full title on one line (no wrap, no ellipsis); scroll bar if viewport is tight */
+.VPNavBar .wrapper {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
 .VPNavBar .container {
   gap: 0.75rem 1rem;
+  flex-wrap: nowrap;
+  min-width: min-content;
 }
 
 .VPNavBarTitle.has-sidebar {
+  flex: 0 0 auto;
   min-width: 0;
-  flex-shrink: 1;
 }
 
+/* Icon + text stay in a single row */
 .VPNavBarTitle.has-sidebar .title {
   font-size: 0.9375rem;
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.25;
-  display: block;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   white-space: nowrap;
-  max-width: min(100%, 15rem);
+  max-width: none;
+  overflow: visible;
+  text-overflow: clip;
 }
 
-@media (min-width: 960px) {
-  .VPNavBarTitle.has-sidebar .title {
-    max-width: min(100%, 22rem);
-  }
-}
-
-@media (min-width: 1280px) {
-  .VPNavBarTitle.has-sidebar .title {
-    max-width: min(100%, 30rem);
-  }
+.VPNavBarTitle.has-sidebar .title span {
+  white-space: nowrap;
 }
 
 .VPNavBar .content {
