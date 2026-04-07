@@ -1,14 +1,28 @@
 ---
-layout: home
-
-hero:
-  name: Great Guidance in Advanced Computer Systems
-  tagline: '[COM00018I] Systems & Devices 3: Advanced Computer Systems'
+layout: doc
+aside: false
+outline: false
 ---
 
-<div class="home-course-meta">
-  <p class="home-meta-line"><strong>Lecture</strong> — day, time, and room (edit in <code>docs/index.md</code>)</p>
-  <p class="home-meta-line"><strong>Recordings &amp; materials</strong> — <a href="#" class="home-meta-link">VLE / Panopto</a><span class="ext" aria-hidden="true"> ↗</span></p>
+<div class="home-lead">
+
+# Great Guidance in Advanced Computer Systems
+
+<p class="home-course-id">[COM00018I] Systems &amp; Devices 3: Advanced Computer Systems</p>
+
+<div class="home-info-stack">
+  <p class="home-info-label">Lecture:</p>
+  <p class="home-info-detail">Thursdays 9:00–11:00</p>
+  <p class="home-info-detail"><a href="#" class="home-room-link">PZA/103</a> Lecture Theatre, Campus East — Piazza Building</p>
+
+  <p class="home-info-label">Practical:</p>
+  <p class="home-info-detail">Thursdays 11:00–13:00</p>
+  <p class="home-info-detail"><a href="#" class="home-room-link">CSE/066</a> Software Lab, Campus East — Computer Science Building (Ian Wand Building)</p>
+
+  <p class="home-info-label">Recordings:</p>
+  <p class="home-info-detail"><a href="#" class="home-room-link">VLE / Panopto</a><span class="ext" aria-hidden="true"> ↗</span></p>
+</div>
+
 </div>
 
 <h2 class="home-section-title" id="schedule">Course schedule</h2>
@@ -22,30 +36,30 @@ hero:
       <th scope="col">Date</th>
       <th scope="col">Lecture</th>
       <th scope="col">Discussion</th>
-      <th scope="col">Lab</th>
+      <th scope="col">Lab / Practical</th>
       <th scope="col">HW</th>
       <th scope="col">Project</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3" class="week-cell">1</td>
-      <td class="date-cell">Wed 21 Jan</td>
+      <td class="week-cell">1</td>
+      <td class="date-cell">Thu 23 Jan</td>
       <td class="lec-cell">
+        <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
         <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 1: Intro, course overview</a></div>
         <div class="schedule-readings">Readings: <a href="#">Syllabus</a></div>
         <div class="schedule-actions">
           <a class="schedule-link" href="#" target="_blank" rel="noopener noreferrer">Slides <span class="ext" aria-hidden="true">↗</span></a>
-          <a class="schedule-link" href="#" target="_blank" rel="noopener noreferrer">Drive <span class="ext" aria-hidden="true">↗</span></a>
           <a class="schedule-link" href="#" target="_blank" rel="noopener noreferrer">Video <span class="ext" aria-hidden="true">↗</span></a>
         </div>
       </td>
       <td class="muted-cell">—</td>
-      <td class="lab-cell" rowspan="3">
-        <div class="schedule-row-title"><a href="#" class="lec-title-link">Lab 0: Environment setup</a></div>
-        <span class="due-badge">Due 23 Jan</span>
-        <div class="schedule-actions" style="margin-top: 0.5rem;">
-          <a class="schedule-link" href="#">Spec</a>
+      <td class="lab-cell">
+        <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
+        <div class="schedule-row-title"><a href="#" class="lec-title-link">Practical 1: Environment setup</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="#">Handout</a>
           <a class="schedule-link" href="#">Starter</a>
         </div>
       </td>
@@ -53,8 +67,10 @@ hero:
       <td class="muted-cell">—</td>
     </tr>
     <tr>
-      <td class="date-cell">Thu 22 Jan</td>
+      <td class="week-cell">2</td>
+      <td class="date-cell">Thu 30 Jan</td>
       <td class="lec-cell">
+        <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
         <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 2: Foundations</a></div>
         <div class="schedule-readings">Readings: <a href="#">L02 notes</a></div>
         <div class="schedule-actions">
@@ -63,90 +79,35 @@ hero:
         </div>
       </td>
       <td class="muted-cell">—</td>
-      <td class="muted-cell">—</td>
-      <td class="muted-cell">—</td>
-    </tr>
-    <tr>
-      <td class="date-cell">Fri 23 Jan</td>
-      <td class="lec-cell">
-        <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 3: Memory &amp; performance</a></div>
+      <td class="lab-cell">
+        <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
+        <div class="schedule-row-title"><a href="#" class="lec-title-link">Practical 2</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="#">Slides</a>
+          <a class="schedule-link" href="#">Instructions</a>
         </div>
       </td>
-      <td class="muted-cell">—</td>
-      <td class="muted-cell">—</td>
-      <td class="muted-cell">—</td>
-    </tr>
-    <tr>
-      <td rowspan="4" class="week-cell">2</td>
-      <td class="date-cell">Mon 26 Jan</td>
-      <td class="lec-cell">
-        <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 4: Advanced topics</a></div>
-        <div class="schedule-readings">Readings: <a href="#">L04 notes</a></div>
-        <div class="schedule-actions">
-          <a class="schedule-link" href="#">Slides</a>
-          <a class="schedule-link" href="#">Video</a>
-        </div>
-      </td>
-      <td class="disc-cell">
-        <div class="schedule-row-title"><a href="#" class="lec-title-link">Discussion 1: Number representation</a></div>
-        <div class="schedule-actions">
-          <a class="schedule-link" href="#">Precheck</a>
-          <a class="schedule-link" href="#">Precheck sols</a>
-          <a class="schedule-link" href="#">Worksheet</a>
-          <a class="schedule-link" href="#">Solutions</a>
-          <a class="schedule-link" href="#">Resources</a>
-        </div>
-      </td>
-      <td class="muted-cell">—</td>
-      <td class="hw-cell" rowspan="4">
-        <div class="hw-title"><a href="#" class="lec-title-link">Homework 1: Number representation</a></div>
-        <span class="due-badge">Due 29 Jan</span>
-        <div class="schedule-actions" style="margin-top: 0.5rem;">
-          <a class="schedule-link" href="#">PDF</a>
-          <a class="schedule-link" href="#">Submit</a>
-        </div>
+      <td class="hw-cell">
+        <div class="hw-title"><a href="#" class="lec-title-link">Homework 1</a></div>
+        <span class="due-badge">Due TBC</span>
       </td>
       <td class="muted-cell">—</td>
     </tr>
     <tr>
-      <td class="date-cell">Wed 28 Jan</td>
+      <td class="week-cell">3</td>
+      <td class="date-cell">Thu 6 Feb</td>
       <td class="lec-cell">
-        <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 5: Parallelism</a></div>
-        <div class="schedule-readings">Readings: <a href="#">Chapter 2</a></div>
+        <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
+        <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 3</a></div>
         <div class="schedule-actions">
           <a class="schedule-link" href="#">Slides</a>
-          <a class="schedule-link" href="#">Drive</a>
         </div>
       </td>
       <td class="muted-cell">—</td>
       <td class="lab-cell">
-        <div class="schedule-row-title"><a href="#" class="lec-title-link">Lab 1: Tools</a></div>
-        <span class="due-badge">Due 30 Jan</span>
-        <div class="schedule-actions" style="margin-top: 0.5rem;">
-          <a class="schedule-link" href="#">Handout</a>
-        </div>
-      </td>
-      <td class="muted-cell">—</td>
-    </tr>
-    <tr>
-      <td class="date-cell">Thu 29 Jan</td>
-      <td class="muted-cell" colspan="3">— (No session — edit as needed)</td>
-      <td class="muted-cell">—</td>
-    </tr>
-    <tr>
-      <td class="date-cell">Fri 30 Jan</td>
-      <td class="lec-cell">
-        <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 6: Review</a></div>
+        <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
+        <div class="schedule-row-title"><a href="#" class="lec-title-link">Practical 3</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="#">Slides</a>
-        </div>
-      </td>
-      <td class="disc-cell">
-        <div class="schedule-row-title"><a href="#" class="lec-title-link">Discussion 2</a></div>
-        <div class="schedule-actions">
-          <a class="schedule-link" href="#">Worksheet</a>
+          <a class="schedule-link" href="#">Instructions</a>
         </div>
       </td>
       <td class="muted-cell">—</td>
