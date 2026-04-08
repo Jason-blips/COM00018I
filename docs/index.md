@@ -74,7 +74,7 @@ outline: false
         <div class="schedule-row-title"><a href="lectures/week02" class="lec-title-link">S2 Week 2 - Principles of Computer Design</a></div>
         <div class="schedule-readings">Readings: <a href="#">L02 notes</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="slides/week02/index.html">Slides</a>
+          <a class="schedule-link" href="slides/week02/index.html" target="_blank" rel="noopener noreferrer">Slides</a>
           <a class="schedule-link" href="#">Video</a>
         </div>
       </td>
@@ -97,7 +97,7 @@ outline: false
         <div class="schedule-time-hint">9:00-11:00  PZA/103</div>
         <div class="schedule-row-title"><a href="lectures/week03" class="lec-title-link">S2 Week 3 - Introduction to RISC Pipeline</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="slides/week03/index.html">Slides</a>
+          <a class="schedule-link" href="slides/week03/index.html" target="_blank" rel="noopener noreferrer">Slides</a>
         </div>
       </td>
       <td><a class="schedule-link" href="lecture-reviews/week03.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
@@ -119,7 +119,7 @@ outline: false
         <div class="schedule-time-hint">9:00-11:00  PZA/103</div>
         <div class="schedule-row-title"><a href="lectures/week04" class="lec-title-link">S2 Week 4 - Pipeline Hazards</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="slides/week04/index.html">Slides</a>
+          <a class="schedule-link" href="slides/week04/index.html" target="_blank" rel="noopener noreferrer">Slides</a>
         </div>
       </td>
       <td><a class="schedule-link" href="lecture-reviews/week04.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
@@ -141,7 +141,7 @@ outline: false
         <div class="schedule-time-hint">9:00-11:00  PZA/103</div>
         <div class="schedule-row-title"><a href="lectures/week05" class="lec-title-link">S2 Week 5 - Compiler Techniques</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="slides/week05/index.html">Slides</a>
+          <a class="schedule-link" href="slides/week05/index.html" target="_blank" rel="noopener noreferrer">Slides</a>
         </div>
       </td>
       <td><a class="schedule-link" href="lecture-reviews/week05.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
@@ -163,7 +163,7 @@ outline: false
         <div class="schedule-time-hint">9:00-11:00  PZA/103</div>
         <div class="schedule-row-title"><a href="lectures/week06" class="lec-title-link">S2 Week 6 - Dynamic Scheduling</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="slides/week06/index.html">Slides</a>
+          <a class="schedule-link" href="slides/week06/index.html" target="_blank" rel="noopener noreferrer">Slides</a>
         </div>
       </td>
       <td><a class="schedule-link" href="lecture-reviews/week06.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
@@ -185,7 +185,7 @@ outline: false
         <div class="schedule-time-hint">9:00-11:00  PZA/103</div>
         <div class="schedule-row-title"><a href="lectures/week07" class="lec-title-link">S2 Week 7 - Speculative Execution & Superscalar Processors</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="slides/week07/index.html">Slides</a>
+          <a class="schedule-link" href="slides/week07/index.html" target="_blank" rel="noopener noreferrer">Slides</a>
         </div>
       </td>
       <td><a class="schedule-link" href="lecture-reviews/week07.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
