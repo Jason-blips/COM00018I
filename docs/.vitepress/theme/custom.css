@@ -16,6 +16,48 @@
   --vp-c-brand-2: #79b8ff;
   --vp-c-brand-3: #388bfd;
   --vp-c-brand-soft: rgba(88, 166, 255, 0.12);
+  /* GitHub-style dark surfaces (reference layout) */
+  --vp-c-bg: #0d1117;
+  --vp-c-bg-alt: #161b22;
+  --vp-c-bg-soft: #161b22;
+  --vp-c-bg-elv: #161b22;
+  --vp-c-divider: #21262d;
+  --vp-c-text-1: #e6edf3;
+  --vp-c-text-2: #8b949e;
+  --vp-c-text-3: #6e7681;
+}
+
+/* Page shell */
+.dark #app .Layout {
+  background: #0d1117;
+}
+
+/* --- Top bar: logo + title | search + menu, single hairline below --- */
+.dark .VPNav {
+  background: #0d1117;
+}
+
+.dark .VPNavBar {
+  border-bottom: 1px solid #21262d;
+}
+
+.dark .VPNavBar .divider {
+  display: none;
+}
+
+.VPNavBar .wrapper {
+  padding: 0.65rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .VPNavBar .wrapper {
+    padding: 0.65rem 1.25rem;
+  }
+}
+
+.VPImage.logo {
+  width: 28px;
+  height: 28px;
 }
 
 /* --- Sidebar: flush left, compact (no wide dead zone) --- */
@@ -63,14 +105,38 @@ aside.VPSidebar {
   border-radius: 2px;
 }
 
-/* Bar under header (Menu / outline): align with sidebar, minimal left gutter */
-.VPLocalNav.has-sidebar {
-  padding-left: 0 !important;
+/* Secondary bar: Menu (left) — Return to top (right), compact, aligned with content */
+.dark .VPLocalNav.has-sidebar {
+  padding: 0 !important;
+  background: #0d1117;
+  border-bottom: 1px solid #21262d;
 }
 
 .VPLocalNav.has-sidebar .container {
-  padding-left: 0.5rem;
-  padding-right: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 2.5rem;
+  padding: 0.35rem 1rem;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .VPLocalNav.has-sidebar .container {
+    padding: 0.35rem 1.25rem;
+  }
+}
+
+.dark .VPLocalNav.has-sidebar .menu {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #c9d1d9;
+}
+
+.dark .VPLocalNavOutlineDropdown button {
+  font-size: 0.8125rem;
+  color: #8b949e;
 }
 
 /* Group headings: Course / Lectures */
@@ -107,12 +173,24 @@ aside.VPSidebar {
   font-weight: 600;
 }
 
-/* Main column: comfortable line length; never flush against sidebar */
+/* Main column: comfortable line length; same horizontal padding as header */
 .VPDoc .content-container {
   max-width: min(100%, 900px);
 }
 
-/* Navbar: logo + full title on one line (no wrap, no ellipsis); scroll bar if viewport is tight */
+.VPDoc .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .VPDoc .content {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
+/* Navbar: logo + full title on one line; subtle scroll only if needed */
 .VPNavBar .wrapper {
   overflow-x: auto;
   scrollbar-width: thin;
@@ -131,7 +209,7 @@ aside.VPSidebar {
 
 /* Icon + text stay in a single row */
 .VPNavBarTitle.has-sidebar .title {
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.25;
@@ -166,11 +244,11 @@ aside.VPSidebar {
   color: #58a6ff;
 }
 
-/* Home page — stacked title + Lecture / Practical (Berkeley-style) */
+/* Home page — stacked title + Lecture / Practical (reference: white h1, muted body, blue links) */
 .home-lead {
   max-width: 44rem;
-  margin-bottom: 2rem;
-  padding: 0.25rem 0 1rem;
+  margin-bottom: 1.75rem;
+  padding: 0.75rem 0 1rem;
 }
 
 .dark .home-lead {
@@ -219,15 +297,14 @@ aside.VPSidebar {
 }
 
 .home-room-link {
-  color: #2dd4bf;
-  text-decoration: none;
+  color: #58a6ff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
   font-weight: 500;
 }
 
 .home-room-link:hover {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  color: #5eead4;
+  color: #79b8ff;
 }
 
 .home-section-title {
@@ -243,11 +320,11 @@ aside.VPSidebar {
 .home-section-title::after {
   content: '';
   display: block;
-  width: 3rem;
-  height: 3px;
-  margin-top: 0.65rem;
-  border-radius: 2px;
-  background: linear-gradient(90deg, var(--vp-c-brand-1), transparent);
+  width: 2.75rem;
+  height: 2px;
+  margin-top: 0.5rem;
+  border-radius: 1px;
+  background: #58a6ff;
 }
 
 .vp-doc .schedule-block {
@@ -261,8 +338,8 @@ aside.VPSidebar {
   overflow-x: auto;
   margin: 0 auto 2rem;
   max-width: 72rem;
-  padding: 0 1rem;
-  border-radius: 10px;
+  padding: 0;
+  border-radius: 8px;
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg-soft);
 }
