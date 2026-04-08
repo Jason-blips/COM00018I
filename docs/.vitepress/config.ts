@@ -26,8 +26,7 @@ export default defineConfig({
     nav: [
       { text: 'Overview', link: '/' },
       { text: 'Syllabus', link: '/syllabus' },
-      { text: 'Resources', link: '/resources' },
-      { text: 'Lectures', link: '/lectures/' }
+      { text: 'Resources', link: '/resources' }
     ],
     sidebar: false,
     socialLinks: [],

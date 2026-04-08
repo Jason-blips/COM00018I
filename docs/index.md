@@ -51,7 +51,7 @@ outline: false
         <div class="schedule-row-title"><a href="lectures/week01" class="lec-title-link">S2 Week 1 - Introductory Lectures</a></div>
         <div class="schedule-readings">Readings: <a href="#">Syllabus</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="slides/week01/" target="_blank" rel="noopener noreferrer">Open Folder<span class="ext" aria-hidden="true">↗</span></a>
+          <a class="schedule-link" href="slides/week01/" target="_blank" rel="noopener noreferrer">Slides<span class="ext" aria-hidden="true">↗</span></a>
           <a class="schedule-link" href="#" target="_blank" rel="noopener noreferrer">Video <span class="ext" aria-hidden="true">↗</span></a>
         </div>
       </td>
