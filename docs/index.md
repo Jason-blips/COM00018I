@@ -35,16 +35,19 @@ outline: false
       <th scope="col">Week</th>
       <th scope="col">Date</th>
       <th scope="col">Lecture</th>
-      <th scope="col">Discussion</th>
+      <th scope="col">Lecture Reviews</th>
+      <th scope="col">Exercises</th>
+      <th scope="col">Quizzes</th>
       <th scope="col">Lab / Practical</th>
       <th scope="col">HW</th>
+      <th scope="col">Assessment</th>
       <th scope="col">Project</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td class="week-cell">1</td>
-      <td class="date-cell">Thu 23 Jan</td>
+      <td class="date-cell">Thu 12/02</td>
       <td class="lec-cell">
         <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
         <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 1: Intro, course overview</a></div>
@@ -54,6 +57,9 @@ outline: false
           <a class="schedule-link" href="#" target="_blank" rel="noopener noreferrer">Video <span class="ext" aria-hidden="true">↗</span></a>
         </div>
       </td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
       <td class="muted-cell">—</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
@@ -65,10 +71,11 @@ outline: false
       </td>
       <td class="muted-cell">—</td>
       <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
     </tr>
     <tr>
       <td class="week-cell">2</td>
-      <td class="date-cell">Thu 30 Jan</td>
+      <td class="date-cell">Thu 19/02</td>
       <td class="lec-cell">
         <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
         <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 2: Foundations</a></div>
@@ -78,6 +85,9 @@ outline: false
           <a class="schedule-link" href="#">Video</a>
         </div>
       </td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
       <td class="muted-cell">—</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
@@ -91,10 +101,11 @@ outline: false
         <span class="due-badge">Due TBC</span>
       </td>
       <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
     </tr>
     <tr>
       <td class="week-cell">3</td>
-      <td class="date-cell">Thu 6 Feb</td>
+      <td class="date-cell">Thu 26/02</td>
       <td class="lec-cell">
         <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
         <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 3</a></div>
@@ -103,6 +114,9 @@ outline: false
         </div>
       </td>
       <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
         <div class="schedule-row-title"><a href="#" class="lec-title-link">Practical 3</a></div>
@@ -110,6 +124,107 @@ outline: false
           <a class="schedule-link" href="#">Instructions</a>
         </div>
       </td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+    </tr>
+    <tr>
+      <td class="week-cell">4</td>
+      <td class="date-cell">Thu 05/03</td>
+      <td class="lec-cell">
+        <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
+        <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 4</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="#">Slides</a>
+        </div>
+      </td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="lab-cell">
+        <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
+        <div class="schedule-row-title"><a href="#" class="lec-title-link">Practical 4</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="#">Instructions</a>
+        </div>
+      </td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+    </tr>
+    <tr>
+      <td class="week-cell">5</td>
+      <td class="date-cell">Thu 12/03</td>
+      <td class="lec-cell">
+        <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
+        <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 5</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="#">Slides</a>
+        </div>
+      </td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="lab-cell">
+        <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
+        <div class="schedule-row-title"><a href="#" class="lec-title-link">Practical 5</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="#">Instructions</a>
+        </div>
+      </td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+    </tr>
+    <tr>
+      <td class="week-cell">6</td>
+      <td class="date-cell">Thu 19/03</td>
+      <td class="lec-cell">
+        <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
+        <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 6</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="#">Slides</a>
+        </div>
+      </td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="lab-cell">
+        <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
+        <div class="schedule-row-title"><a href="#" class="lec-title-link">Practical 6</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="#">Instructions</a>
+        </div>
+      </td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+    </tr>
+    <tr>
+      <td class="week-cell">7</td>
+      <td class="date-cell">Thu 26/03</td>
+      <td class="lec-cell">
+        <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
+        <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 7</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="#">Slides</a>
+        </div>
+      </td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="muted-cell">—</td>
+      <td class="lab-cell">
+        <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
+        <div class="schedule-row-title"><a href="#" class="lec-title-link">Practical 7</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="#">Instructions</a>
+        </div>
+      </td>
+      <td class="muted-cell">—</td>
       <td class="muted-cell">—</td>
       <td class="muted-cell">—</td>
     </tr>
