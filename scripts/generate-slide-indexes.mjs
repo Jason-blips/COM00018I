@@ -8,7 +8,8 @@ const categories = [
   { key: 'practicals', title: 'Practicals' },
   { key: 'lecture-reviews', title: 'Lecture Reviews' },
   { key: 'exercises', title: 'Exercises' },
-  { key: 'quizzes', title: 'Quizzes' }
+  { key: 'quizzes', title: 'Quizzes' },
+  { key: 'assessment', title: 'Assessment' }
 ]
 
 function escapeHtml(input) {

@@ -61,10 +61,10 @@ outline: false
         <div class="schedule-row-title"><a href="practicals/week01/" class="lec-title-link">Practical 1: Environment setup</a></div>
         <div class="schedule-actions">
           <a class="schedule-link" href="practicals/week01/">Handout</a>
-          <a class="schedule-link" href="#">Starter</a>
+          <a class="schedule-link" href="practicals/week01/">Starter</a>
         </div>
       </td>
-      <td class="muted-cell">—</td>
+      <td><a class="schedule-link" href="assessment/week01/">Assessment</a></td>
     </tr>
     <tr>
       <td class="week-cell">2</td>
@@ -88,7 +88,7 @@ outline: false
           <a class="schedule-link" href="practicals/week02/">Instructions</a>
         </div>
       </td>
-      <td class="muted-cell">—</td>
+      <td><a class="schedule-link" href="assessment/week02/">Assessment</a></td>
     </tr>
     <tr>
       <td class="week-cell">3</td>
@@ -110,7 +110,7 @@ outline: false
           <a class="schedule-link" href="practicals/week03/">Instructions</a>
         </div>
       </td>
-      <td class="muted-cell">—</td>
+      <td><a class="schedule-link" href="assessment/week03/">Assessment</a></td>
     </tr>
     <tr>
       <td class="week-cell">4</td>
@@ -132,7 +132,7 @@ outline: false
           <a class="schedule-link" href="practicals/week04/">Instructions</a>
         </div>
       </td>
-      <td class="muted-cell">—</td>
+      <td><a class="schedule-link" href="assessment/week04/">Assessment</a></td>
     </tr>
     <tr>
       <td class="week-cell">5</td>
@@ -154,7 +154,7 @@ outline: false
           <a class="schedule-link" href="practicals/week05/">Instructions</a>
         </div>
       </td>
-      <td class="muted-cell">—</td>
+      <td><a class="schedule-link" href="assessment/week05/">Assessment</a></td>
     </tr>
     <tr>
       <td class="week-cell">6</td>
@@ -176,7 +176,7 @@ outline: false
           <a class="schedule-link" href="practicals/week06/">Instructions</a>
         </div>
       </td>
-      <td class="muted-cell">—</td>
+      <td><a class="schedule-link" href="assessment/week06/">Assessment</a></td>
     </tr>
     <tr>
       <td class="week-cell">7</td>
@@ -198,7 +198,7 @@ outline: false
           <a class="schedule-link" href="practicals/week07/">Instructions</a>
         </div>
       </td>
-      <td class="muted-cell">—</td>
+      <td><a class="schedule-link" href="assessment/week07/">Assessment</a></td>
     </tr>
   </tbody>
 </table>
