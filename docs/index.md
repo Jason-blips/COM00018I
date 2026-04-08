@@ -39,9 +39,7 @@ outline: false
       <th scope="col">Exercises</th>
       <th scope="col">Quizzes</th>
       <th scope="col">Lab / Practical</th>
-      <th scope="col">HW</th>
       <th scope="col">Assessment</th>
-      <th scope="col">Project</th>
     </tr>
   </thead>
   <tbody>
@@ -70,8 +68,6 @@ outline: false
         </div>
       </td>
       <td class="muted-cell">—</td>
-      <td class="muted-cell">—</td>
-      <td class="muted-cell">—</td>
     </tr>
     <tr>
       <td class="week-cell">2</td>
@@ -95,10 +91,6 @@ outline: false
         <div class="schedule-actions">
           <a class="schedule-link" href="#">Instructions</a>
         </div>
-      </td>
-      <td class="hw-cell">
-        <div class="hw-title"><a href="#" class="lec-title-link">Homework 1</a></div>
-        <span class="due-badge">Due TBC</span>
       </td>
       <td class="muted-cell">—</td>
       <td class="muted-cell">—</td>
@@ -125,8 +117,6 @@ outline: false
         </div>
       </td>
       <td class="muted-cell">—</td>
-      <td class="muted-cell">—</td>
-      <td class="muted-cell">—</td>
     </tr>
     <tr>
       <td class="week-cell">4</td>
@@ -149,8 +139,6 @@ outline: false
           <a class="schedule-link" href="#">Instructions</a>
         </div>
       </td>
-      <td class="muted-cell">—</td>
-      <td class="muted-cell">—</td>
       <td class="muted-cell">—</td>
     </tr>
     <tr>
@@ -175,8 +163,6 @@ outline: false
         </div>
       </td>
       <td class="muted-cell">—</td>
-      <td class="muted-cell">—</td>
-      <td class="muted-cell">—</td>
     </tr>
     <tr>
       <td class="week-cell">6</td>
@@ -200,8 +186,6 @@ outline: false
         </div>
       </td>
       <td class="muted-cell">—</td>
-      <td class="muted-cell">—</td>
-      <td class="muted-cell">—</td>
     </tr>
     <tr>
       <td class="week-cell">7</td>
@@ -224,8 +208,6 @@ outline: false
           <a class="schedule-link" href="#">Instructions</a>
         </div>
       </td>
-      <td class="muted-cell">—</td>
-      <td class="muted-cell">—</td>
       <td class="muted-cell">—</td>
     </tr>
   </tbody>
