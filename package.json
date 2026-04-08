@@ -7,6 +7,7 @@
   },
   "scripts": {
     "dev": "vitepress dev docs",
+    "prebuild": "npm run gen:materials-index",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
     "gen:slides-index": "node scripts/generate-slide-indexes.mjs",
