@@ -2,7 +2,14 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 
 const root = process.cwd()
-const slidesRoot = path.join(root, 'docs', 'public', 'slides')
+const publicRoot = path.join(root, 'docs', 'public')
+const categories = [
+  { key: 'slides', title: 'Slides' },
+  { key: 'practicals', title: 'Practicals' },
+  { key: 'lecture-reviews', title: 'Lecture Reviews' },
+  { key: 'exercises', title: 'Exercises' },
+  { key: 'quizzes', title: 'Quizzes' }
+]
 
 function escapeHtml(input) {
   return input
@@ -20,7 +27,7 @@ function encodeHref(filename) {
     .join('/')
 }
 
-function buildHtml(weekDirName, files) {
+function buildHtml(category, weekDirName, files) {
   const items = files
     .map((name) => {
       const safeName = escapeHtml(name)
@@ -34,7 +41,7 @@ function buildHtml(weekDirName, files) {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>${escapeHtml(weekDirName)} Slides</title>
+    <title>${escapeHtml(weekDirName)} ${escapeHtml(category.title)}</title>
     <style>
       :root { color-scheme: dark; }
       body {
@@ -57,8 +64,8 @@ function buildHtml(weekDirName, files) {
   <body>
     <main class="wrap">
       <a class="back" href="../../">← Back to course home</a>
-      <h1>${escapeHtml(weekDirName)} Slides</h1>
-      <p>Files from <code>/docs/public/slides/${escapeHtml(weekDirName)}</code>.</p>
+      <h1>${escapeHtml(weekDirName)} ${escapeHtml(category.title)}</h1>
+      <p>Files from <code>/docs/public/${escapeHtml(category.key)}/${escapeHtml(weekDirName)}</code>.</p>
       <ul>
 ${items || '        <li><a class="file" href="#">(No files found)</a></li>'}
       </ul>
@@ -69,30 +76,32 @@ ${items || '        <li><a class="file" href="#">(No files found)</a></li>'}
 }
 
 async function main() {
-  let dirs
-  try {
-    dirs = await fs.readdir(slidesRoot, { withFileTypes: true })
-  } catch (err) {
-    console.error(`Cannot read slides root: ${slidesRoot}`)
-    throw err
-  }
+  for (const category of categories) {
+    const categoryRoot = path.join(publicRoot, category.key)
+    let dirs
+    try {
+      dirs = await fs.readdir(categoryRoot, { withFileTypes: true })
+    } catch {
+      continue
+    }
 
-  const weekDirs = dirs
-    .filter((d) => d.isDirectory())
-    .map((d) => d.name)
-    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
-
-  for (const week of weekDirs) {
-    const weekPath = path.join(slidesRoot, week)
-    const entries = await fs.readdir(weekPath, { withFileTypes: true })
-    const files = entries
-      .filter((e) => e.isFile() && e.name.toLowerCase() !== 'index.html')
-      .map((e) => e.name)
+    const weekDirs = dirs
+      .filter((d) => d.isDirectory())
+      .map((d) => d.name)
       .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
 
-    const html = buildHtml(week, files)
-    await fs.writeFile(path.join(weekPath, 'index.html'), html, 'utf8')
-    console.log(`Generated slides index: ${week}/index.html (${files.length} files)`)
+    for (const week of weekDirs) {
+      const weekPath = path.join(categoryRoot, week)
+      const entries = await fs.readdir(weekPath, { withFileTypes: true })
+      const files = entries
+        .filter((e) => e.isFile() && e.name.toLowerCase() !== 'index.html')
+        .map((e) => e.name)
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+
+      const html = buildHtml(category, week, files)
+      await fs.writeFile(path.join(weekPath, 'index.html'), html, 'utf8')
+      console.log(`Generated ${category.key} index: ${week}/index.html (${files.length} files)`)
+    }
   }
 }
 

@@ -9,7 +9,8 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
-    "gen:slides-index": "node scripts/generate-slide-indexes.mjs"
+    "gen:slides-index": "node scripts/generate-slide-indexes.mjs",
+    "gen:materials-index": "node scripts/generate-slide-indexes.mjs"
   },
   "devDependencies": {
     "vitepress": "^1.6.3",
