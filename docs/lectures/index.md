@@ -4,8 +4,7 @@ This page is the folder entry for lecture notes and materials.
 
 ## Lecture notes
 
-- [Lecture 1](/lectures/lec01)
-- [Week 1 (Lectures 0-2)](/lectures/week01)
+- [S2 Week1 - Introductory Lectures](/lectures/week01)
 - [S2 Week 2 - Principles of Computer Design](/lectures/week02)
 - [S2 Week 3 - Introduction to RISC Pipeline](/lectures/week03)
 - [S2 Week 4 - Pipeline Hazards](/lectures/week04)
