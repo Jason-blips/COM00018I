@@ -1,4 +1,5 @@
 ---
+title: Overview
 layout: doc
 aside: false
 outline: false
@@ -64,7 +65,7 @@ outline: false
           <a class="schedule-link" href="practicals/week01/">Starter</a>
         </div>
       </td>
-      <td><a class="schedule-link" href="assessment/week01/">Assessment</a></td>
+      <td>-</td>
     </tr>
     <tr>
       <td class="week-cell">2</td>
@@ -88,7 +89,7 @@ outline: false
           <a class="schedule-link" href="practicals/week02/">Instructions</a>
         </div>
       </td>
-      <td><a class="schedule-link" href="assessment/week02/">Assessment</a></td>
+      <td>-</td>
     </tr>
     <tr>
       <td class="week-cell">3</td>
@@ -110,7 +111,7 @@ outline: false
           <a class="schedule-link" href="practicals/week03/">Instructions</a>
         </div>
       </td>
-      <td><a class="schedule-link" href="assessment/week03/">Assessment</a></td>
+      <td>-</td>
     </tr>
     <tr>
       <td class="week-cell">4</td>
@@ -132,7 +133,7 @@ outline: false
           <a class="schedule-link" href="practicals/week04/">Instructions</a>
         </div>
       </td>
-      <td><a class="schedule-link" href="assessment/week04/">Assessment</a></td>
+      <td>-</td>
     </tr>
     <tr>
       <td class="week-cell">5</td>
@@ -154,7 +155,7 @@ outline: false
           <a class="schedule-link" href="practicals/week05/">Instructions</a>
         </div>
       </td>
-      <td><a class="schedule-link" href="assessment/week05/">Assessment</a></td>
+      <td>-</td>
     </tr>
     <tr>
       <td class="week-cell">6</td>
@@ -176,7 +177,7 @@ outline: false
           <a class="schedule-link" href="practicals/week06/">Instructions</a>
         </div>
       </td>
-      <td><a class="schedule-link" href="assessment/week06/">Assessment</a></td>
+      <td>-</td>
     </tr>
     <tr>
       <td class="week-cell">7</td>
@@ -198,7 +199,7 @@ outline: false
           <a class="schedule-link" href="practicals/week07/">Instructions</a>
         </div>
       </td>
-      <td><a class="schedule-link" href="assessment/week07/">Assessment</a></td>
+      <td>-</td>
     </tr>
   </tbody>
 </table>
