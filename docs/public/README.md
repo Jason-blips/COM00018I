@@ -14,3 +14,8 @@ Recommended naming:
 
 - Use `week01`, `week02`, ... to keep links stable.
 - Avoid spaces in filenames (use `-`).
+
+Generate folder index pages for all slide weeks:
+
+- Run `npm run gen:slides-index`
+- It scans `docs/public/slides/weekXX/` and writes `index.html` in each week folder.

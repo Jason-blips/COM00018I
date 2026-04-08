@@ -48,10 +48,10 @@ outline: false
       <td class="date-cell">Thu 12/02</td>
       <td class="lec-cell">
         <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
-        <div class="schedule-row-title"><a href="/lectures/week01" class="lec-title-link">Week 1: Introductions (Lectures 0–2)</a></div>
+        <div class="schedule-row-title"><a href="lectures/week01" class="lec-title-link">Week 1: Introductions (Lectures 0–2)</a></div>
         <div class="schedule-readings">Readings: <a href="#">Syllabus</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="/slides/week01.pdf" target="_blank" rel="noopener noreferrer">Slides <span class="ext" aria-hidden="true">↗</span></a>
+          <a class="schedule-link" href="slides/week01/" target="_blank" rel="noopener noreferrer">Slides <span class="ext" aria-hidden="true">↗</span></a>
           <a class="schedule-link" href="#" target="_blank" rel="noopener noreferrer">Video <span class="ext" aria-hidden="true">↗</span></a>
         </div>
       </td>
@@ -61,9 +61,9 @@ outline: false
       <td class="muted-cell">—</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
-        <div class="schedule-row-title"><a href="/practicals/week01.pdf" class="lec-title-link">Practical 1: Environment setup</a></div>
+        <div class="schedule-row-title"><a href="practicals/week01.pdf" class="lec-title-link">Practical 1: Environment setup</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="/practicals/week01.pdf">Handout</a>
+          <a class="schedule-link" href="practicals/week01.pdf">Handout</a>
           <a class="schedule-link" href="#">Starter</a>
         </div>
       </td>
@@ -77,7 +77,7 @@ outline: false
         <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 2: Foundations</a></div>
         <div class="schedule-readings">Readings: <a href="#">L02 notes</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="#">Slides</a>
+          <a class="schedule-link" href="slides/week02/">Slides</a>
           <a class="schedule-link" href="#">Video</a>
         </div>
       </td>
@@ -102,7 +102,7 @@ outline: false
         <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
         <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 3</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="#">Slides</a>
+          <a class="schedule-link" href="slides/week03/">Slides</a>
         </div>
       </td>
       <td class="muted-cell">—</td>
@@ -125,7 +125,7 @@ outline: false
         <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
         <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 4</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="#">Slides</a>
+          <a class="schedule-link" href="slides/week04/">Slides</a>
         </div>
       </td>
       <td class="muted-cell">—</td>
@@ -148,7 +148,7 @@ outline: false
         <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
         <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 5</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="#">Slides</a>
+          <a class="schedule-link" href="slides/week05/">Slides</a>
         </div>
       </td>
       <td class="muted-cell">—</td>
@@ -171,7 +171,7 @@ outline: false
         <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
         <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 6</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="#">Slides</a>
+          <a class="schedule-link" href="slides/week06/">Slides</a>
         </div>
       </td>
       <td class="muted-cell">—</td>
@@ -194,7 +194,7 @@ outline: false
         <div class="schedule-time-hint">9:00–11:00 · PZA/103</div>
         <div class="schedule-row-title"><a href="#" class="lec-title-link">Lecture 7</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="#">Slides</a>
+          <a class="schedule-link" href="slides/week07/">Slides</a>
         </div>
       </td>
       <td class="muted-cell">—</td>
