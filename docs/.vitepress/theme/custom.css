@@ -9,6 +9,8 @@
   --vp-font-family-base: 'Source Sans 3', 'Segoe UI', system-ui, sans-serif;
   /* Sidebar width; content padding tightened in CSS below */
   --vp-sidebar-width: 20rem;
+  /* Let sidebar start below nav+local-nav so logo is never covered */
+  --app-header-stack-height: calc(var(--vp-nav-height) + 40px);
 }
 
 .dark {
@@ -70,6 +72,28 @@ aside.VPSidebar {
 .dark .VPSidebar {
   background: #0d1117;
   border-right: 1px solid #21262d;
+}
+
+.dark .VPSidebar {
+  top: var(--app-header-stack-height);
+  height: calc(100vh - var(--app-header-stack-height));
+}
+
+.dark .VPSidebar .curtain {
+  top: var(--app-header-stack-height);
+}
+
+.dark .VPSidebar #VPSidebarNav.nav {
+  max-height: calc(100vh - var(--app-header-stack-height));
+  overflow-y: auto;
+}
+
+.dark .VPLocalNav.has-sidebar {
+  height: 40px;
+}
+
+.dark .VPLocalNav.has-sidebar .container {
+  min-height: 40px;
 }
 
 .dark .VPSidebar #VPSidebarNav.nav {
