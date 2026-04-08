@@ -8,8 +8,6 @@ outline: false
 
 # Great Guidance in Advanced Computer Systems
 
-<p class="home-course-id">[COM00018I] Systems &amp; Devices 3: Advanced Computer Systems</p>
-
 <div class="home-info-stack">
   <p class="home-info-label">Lecture:</p>
   <p class="home-info-detail">Thursdays 9:00–11:00</p>
@@ -58,7 +56,6 @@ outline: false
       <td><a class="schedule-link" href="lecture-reviews/week01/">Review</a></td>
       <td><a class="schedule-link" href="exercises/week01/">Exercises</a></td>
       <td><a class="schedule-link" href="quizzes/week01/">Quiz</a></td>
-      <td class="muted-cell">—</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week01/" class="lec-title-link">Practical 1: Environment setup</a></div>
@@ -84,7 +81,6 @@ outline: false
       <td><a class="schedule-link" href="lecture-reviews/week02/">Review</a></td>
       <td><a class="schedule-link" href="exercises/week02/">Exercises</a></td>
       <td><a class="schedule-link" href="quizzes/week02/">Quiz</a></td>
-      <td class="muted-cell">—</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week02/" class="lec-title-link">Practical 2</a></div>
@@ -92,7 +88,6 @@ outline: false
           <a class="schedule-link" href="practicals/week02/">Instructions</a>
         </div>
       </td>
-      <td class="muted-cell">—</td>
       <td class="muted-cell">—</td>
     </tr>
     <tr>
@@ -108,7 +103,6 @@ outline: false
       <td><a class="schedule-link" href="lecture-reviews/week03/">Review</a></td>
       <td><a class="schedule-link" href="exercises/week03/">Exercises</a></td>
       <td><a class="schedule-link" href="quizzes/week03/">Quiz</a></td>
-      <td class="muted-cell">—</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week03/" class="lec-title-link">Practical 3</a></div>
@@ -131,7 +125,6 @@ outline: false
       <td><a class="schedule-link" href="lecture-reviews/week04/">Review</a></td>
       <td><a class="schedule-link" href="exercises/week04/">Exercises</a></td>
       <td><a class="schedule-link" href="quizzes/week04/">Quiz</a></td>
-      <td class="muted-cell">—</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week04/" class="lec-title-link">Practical 4</a></div>
@@ -154,7 +147,6 @@ outline: false
       <td><a class="schedule-link" href="lecture-reviews/week05/">Review</a></td>
       <td><a class="schedule-link" href="exercises/week05/">Exercises</a></td>
       <td><a class="schedule-link" href="quizzes/week05/">Quiz</a></td>
-      <td class="muted-cell">—</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week05/" class="lec-title-link">Practical 5</a></div>
@@ -177,7 +169,6 @@ outline: false
       <td><a class="schedule-link" href="lecture-reviews/week06/">Review</a></td>
       <td><a class="schedule-link" href="exercises/week06/">Exercises</a></td>
       <td><a class="schedule-link" href="quizzes/week06/">Quiz</a></td>
-      <td class="muted-cell">—</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week06/" class="lec-title-link">Practical 6</a></div>
@@ -200,7 +191,6 @@ outline: false
       <td><a class="schedule-link" href="lecture-reviews/week07/">Review</a></td>
       <td><a class="schedule-link" href="exercises/week07/">Exercises</a></td>
       <td><a class="schedule-link" href="quizzes/week07/">Quiz</a></td>
-      <td class="muted-cell">—</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00–13:00 · CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week07/" class="lec-title-link">Practical 7</a></div>
