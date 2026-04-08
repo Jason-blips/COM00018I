@@ -27,7 +27,7 @@ export default defineConfig({
       { text: 'Overview', link: '/' },
       { text: 'Syllabus', link: '/syllabus' },
       { text: 'Resources', link: '/resources' },
-      { text: 'Lecture 1', link: '/lectures/lec01' }
+      { text: 'Lectures', link: '/lectures/' }
     ],
     sidebar: false,
     socialLinks: [],
