@@ -5,7 +5,7 @@ const base = process.env.VITE_BASE || '/'
 
 export default defineConfig({
   base,
-  title: 'COM00018I Spring 2026',
+  title: 'COM00018I 2026',
   description:
     'Great Guidance in Advanced Computer Systems — COM00018I course schedule, syllabus, resources, and lecture notes.',
   lang: 'en-US',
@@ -22,6 +22,7 @@ export default defineConfig({
     ]
   ],
   themeConfig: {
+    siteTitle: 'COM00018I — Advanced Computer Systems',
     logo: '/favicon.svg',
     nav: [
       { text: 'Overview', link: '/' },
