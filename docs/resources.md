@@ -17,7 +17,7 @@ This page collects the core links you will use during SYS3.
 ## Practicals, reviews, exercises, quizzes
 
 - Practical handouts and files: [Practicals folders](/practicals/week01/)
-- Lecture review files: [Lecture Reviews folders](/lecture-reviews/week01/)
+- Lecture review files: [Week 1 review PDF](/lecture-reviews/week01.pdf)
 - Exercises: [Exercises folders](/exercises/week01/)
 - Quizzes: [Quizzes folders](/quizzes/week01/)
 

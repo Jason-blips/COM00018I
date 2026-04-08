@@ -6,7 +6,6 @@ const publicRoot = path.join(root, 'docs', 'public')
 const categories = [
   { key: 'slides', title: 'Slides' },
   { key: 'practicals', title: 'Practicals' },
-  { key: 'lecture-reviews', title: 'Lecture Reviews' },
   { key: 'exercises', title: 'Exercises' },
   { key: 'quizzes', title: 'Quizzes' },
   { key: 'assessment', title: 'Assessment' }

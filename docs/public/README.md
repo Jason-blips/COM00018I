@@ -21,7 +21,10 @@ Generate folder index pages for all weekly material folders:
 - It scans these folders and writes `index.html` in each `weekXX` folder:
   - `docs/public/slides/`
   - `docs/public/practicals/`
-  - `docs/public/lecture-reviews/`
   - `docs/public/exercises/`
   - `docs/public/quizzes/`
   - `docs/public/assessment/`
+
+`lecture-reviews` uses a flat file layout (no week folder index):
+
+- `docs/public/lecture-reviews/week01.pdf` → `/lecture-reviews/week01.pdf`

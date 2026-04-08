@@ -53,7 +53,7 @@ outline: false
           <a class="schedule-link" href="#" target="_blank" rel="noopener noreferrer">Video <span class="ext" aria-hidden="true">↗</span></a>
         </div>
       </td>
-      <td><a class="schedule-link" href="lecture-reviews/week01/">Review</a></td>
+      <td><a class="schedule-link" href="lecture-reviews/week01.pdf">Review</a></td>
       <td><a class="schedule-link" href="exercises/week01/">Exercises</a></td>
       <td><a class="schedule-link" href="quizzes/week01/">Quiz</a></td>
       <td class="lab-cell">
@@ -78,7 +78,7 @@ outline: false
           <a class="schedule-link" href="#">Video</a>
         </div>
       </td>
-      <td><a class="schedule-link" href="lecture-reviews/week02/">Review</a></td>
+      <td><a class="schedule-link" href="lecture-reviews/week02.pdf">Review</a></td>
       <td><a class="schedule-link" href="exercises/week02/">Exercises</a></td>
       <td><a class="schedule-link" href="quizzes/week02/">Quiz</a></td>
       <td class="lab-cell">
@@ -100,7 +100,7 @@ outline: false
           <a class="schedule-link" href="slides/week03/">Slides</a>
         </div>
       </td>
-      <td><a class="schedule-link" href="lecture-reviews/week03/">Review</a></td>
+      <td><a class="schedule-link" href="lecture-reviews/week03.pdf">Review</a></td>
       <td><a class="schedule-link" href="exercises/week03/">Exercises</a></td>
       <td><a class="schedule-link" href="quizzes/week03/">Quiz</a></td>
       <td class="lab-cell">
@@ -122,7 +122,7 @@ outline: false
           <a class="schedule-link" href="slides/week04/">Slides</a>
         </div>
       </td>
-      <td><a class="schedule-link" href="lecture-reviews/week04/">Review</a></td>
+      <td><a class="schedule-link" href="lecture-reviews/week04.pdf">Review</a></td>
       <td><a class="schedule-link" href="exercises/week04/">Exercises</a></td>
       <td><a class="schedule-link" href="quizzes/week04/">Quiz</a></td>
       <td class="lab-cell">
@@ -144,7 +144,7 @@ outline: false
           <a class="schedule-link" href="slides/week05/">Slides</a>
         </div>
       </td>
-      <td><a class="schedule-link" href="lecture-reviews/week05/">Review</a></td>
+      <td><a class="schedule-link" href="lecture-reviews/week05.pdf">Review</a></td>
       <td><a class="schedule-link" href="exercises/week05/">Exercises</a></td>
       <td><a class="schedule-link" href="quizzes/week05/">Quiz</a></td>
       <td class="lab-cell">
@@ -166,7 +166,7 @@ outline: false
           <a class="schedule-link" href="slides/week06/">Slides</a>
         </div>
       </td>
-      <td><a class="schedule-link" href="lecture-reviews/week06/">Review</a></td>
+      <td><a class="schedule-link" href="lecture-reviews/week06.pdf">Review</a></td>
       <td><a class="schedule-link" href="exercises/week06/">Exercises</a></td>
       <td><a class="schedule-link" href="quizzes/week06/">Quiz</a></td>
       <td class="lab-cell">
@@ -188,7 +188,7 @@ outline: false
           <a class="schedule-link" href="slides/week07/">Slides</a>
         </div>
       </td>
-      <td><a class="schedule-link" href="lecture-reviews/week07/">Review</a></td>
+      <td><a class="schedule-link" href="lecture-reviews/week07.pdf">Review</a></td>
       <td><a class="schedule-link" href="exercises/week07/">Exercises</a></td>
       <td><a class="schedule-link" href="quizzes/week07/">Quiz</a></td>
       <td class="lab-cell">
