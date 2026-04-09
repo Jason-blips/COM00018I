@@ -18,7 +18,7 @@ This page collects the core links you will use during SYS3.
 
 - Practical handouts and files: [Practicals folders](/practicals/week01/)
 - Lecture review files: [Week 1 review PDF](/lecture-reviews/week01.pdf)
-- Exercises: [Exercises folders](/exercises/week01/)
+- Exercises: [Exercises files](/exercises/index.html)
 - Quizzes: [Quizzes folders](/quizzes/week01/)
 
 > Tip: each week folder has an auto-generated index page.  

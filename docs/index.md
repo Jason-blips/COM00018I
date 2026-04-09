@@ -55,8 +55,8 @@ outline: false
         </div>
       </td>
       <td><a class="schedule-link" href="lecture-reviews/week01.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="exercises/week01/">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="quizzes/week01/">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
+      <td><a class="schedule-link" href="exercises/week01/" target="_blank" rel="noopener noreferrer">Open Folder<span class="ext" aria-hidden="true">&#8599;</span></a></td>
+      <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week01/" class="lec-title-link">Practical 1: Environment setup</a></div>
@@ -80,8 +80,8 @@ outline: false
         </div>
       </td>
       <td><a class="schedule-link" href="lecture-reviews/week02.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="exercises/week02/">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="quizzes/week02/">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
+      <td>-</td>
+      <td><a class="schedule-link" href="https://vle.york.ac.uk/" target="_blank" rel="noopener noreferrer">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week02/" class="lec-title-link">Practical 2</a></div>
@@ -102,8 +102,8 @@ outline: false
         </div>
       </td>
       <td><a class="schedule-link" href="lecture-reviews/week03.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="exercises/week03/">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="quizzes/week03/">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
+      <td>-</td>
+      <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week03/" class="lec-title-link">Practical 3</a></div>
@@ -124,8 +124,8 @@ outline: false
         </div>
       </td>
       <td><a class="schedule-link" href="lecture-reviews/week04.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="exercises/week04/">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="quizzes/week04/">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
+      <td>-</td>
+      <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00 ? CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week04/" class="lec-title-link">Practical 4</a></div>
@@ -146,8 +146,8 @@ outline: false
         </div>
       </td>
       <td><a class="schedule-link" href="lecture-reviews/week05.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="exercises/week05/">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="quizzes/week05/">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
+      <td><a class="schedule-link" href="exercises/week05/" target="_blank" rel="noopener noreferrer">Open Folder <span class="ext" aria-hidden="true">&#8599;</span></a></td>
+      <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week05/" class="lec-title-link">Practical 5</a></div>
@@ -168,8 +168,8 @@ outline: false
         </div>
       </td>
       <td><a class="schedule-link" href="lecture-reviews/week06.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="exercises/week06/">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="quizzes/week06/">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
+      <td>-</td>
+      <td><a class="schedule-link" href="https://vle.york.ac.uk/" target="_blank" rel="noopener noreferrer">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week06/" class="lec-title-link">Practical 6</a></div>
@@ -190,8 +190,8 @@ outline: false
         </div>
       </td>
       <td><a class="schedule-link" href="lecture-reviews/week07.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="exercises/week07/">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="quizzes/week07/">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
+      <td>-</td>
+      <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00 ? CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week07/" class="lec-title-link">Practical 7</a></div>
