@@ -61,8 +61,8 @@ outline: false
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week01-overview" class="lec-title-link">Preface: A New Start</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week01-handout">Handout</a>
-          <a class="schedule-link" href="practicals/week01-starter">Starter</a>
+          <a class="schedule-link" href="practicals/week01-handout" target="_blank" rel="noopener noreferrer">Handout</a>
+          <a class="schedule-link" href="practicals/week01-starter" target="_blank" rel="noopener noreferrer">Starter</a>
         </div>
       </td>
       <td>-</td>
@@ -84,9 +84,9 @@ outline: false
       <td><a class="schedule-link" href="https://vle.york.ac.uk/" target="_blank" rel="noopener noreferrer">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
-        <div class="schedule-row-title"><a href="practicals/week02/" class="lec-title-link">Practical 2</a></div>
+        <div class="schedule-row-title"><a href="practicals/week02/" class="lec-title-link">Lab 2</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week02/">Handout</a>
+          <a class="schedule-link" href="practicals/week02/LabSheetWeek2.pdf" target="_blank" rel="noopener noreferrer">Handout</a>
         </div>
       </td>
       <td>-</td>
@@ -106,9 +106,9 @@ outline: false
       <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
-        <div class="schedule-row-title"><a href="practicals/week03/" class="lec-title-link">Practical 3</a></div>
+        <div class="schedule-row-title"><a href="practicals/week03/" class="lec-title-link">Lab 3</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week03/">Handout</a>
+          <a class="schedule-link" href="practicals/week03/LabSheet.Week.3.pdf" target="_blank" rel="noopener noreferrer">Handout</a>
         </div>
       </td>
       <td>-</td>
@@ -128,9 +128,9 @@ outline: false
       <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00 ? CSE/066</div>
-        <div class="schedule-row-title"><a href="practicals/week04/" class="lec-title-link">Practical 4</a></div>
+        <div class="schedule-row-title"><a href="practicals/week04/" class="lec-title-link">Lab 4</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week04/">Handout</a>
+          <a class="schedule-link" href="practicals/week04/LabSheet.Week.4.pdf" target="_blank" rel="noopener noreferrer">Handout</a>
         </div>
       </td>
       <td>-</td>
@@ -150,9 +150,9 @@ outline: false
       <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
-        <div class="schedule-row-title"><a href="practicals/week05/" class="lec-title-link">Practical 5</a></div>
+        <div class="schedule-row-title"><a href="practicals/week05/" class="lec-title-link">Lab 5</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week05/">Handout</a>
+          <a class="schedule-link" href="practicals/week05/LabSheet.Week.5.pdf" target="_blank" rel="noopener noreferrer">Handout</a>
         </div>
       </td>
       <td>-</td>
@@ -172,9 +172,9 @@ outline: false
       <td><a class="schedule-link" href="https://vle.york.ac.uk/" target="_blank" rel="noopener noreferrer">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
-        <div class="schedule-row-title"><a href="practicals/week06/" class="lec-title-link">Practical 6</a></div>
+        <div class="schedule-row-title"><a href="practicals/week06/" class="lec-title-link">Lab 6</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week06/">Handout</a>
+          <a class="schedule-link" href="practicals/week06/LabSheetWeek6.pdf" target="_blank" rel="noopener noreferrer">Handout</a>
         </div>
       </td>
       <td>-</td>
@@ -194,9 +194,9 @@ outline: false
       <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00 ? CSE/066</div>
-        <div class="schedule-row-title"><a href="practicals/week07/" class="lec-title-link">Practical 7</a></div>
+        <div class="schedule-row-title"><a href="practicals/week07/" class="lec-title-link">Lab 7</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week07/">Handout</a>
+          <a class="schedule-link" href="practicals/week07/LabSheet.Week.7.pdf" target="_blank" rel="noopener noreferrer">Handout</a>
         </div>
       </td>
       <td>-</td>

@@ -8,7 +8,7 @@ outline: false
     <h2>Lab</h2>
     <p>Core practical starter package(s) used in later lab weeks.</p>
     <div class="starter-actions">
-      <a class="starter-btn" href="/practicals/Lab/sys3labs.zip" target="_blank" rel="noopener noreferrer">Download zip ↗</a>
+      <a class="starter-btn" href="./Lab/sys3labs.zip" target="_blank" rel="noopener noreferrer">Download zip ↗</a>
     </div>
   </section>
 
@@ -16,7 +16,7 @@ outline: false
     <h2>Docs</h2>
     <p>Supporting documents and reference notes for practical setup and usage.</p>
     <div class="starter-actions">
-      <a class="starter-btn" href="/practicals/Docs/index.html" target="_blank" rel="noopener noreferrer">Open folder ↗</a>
+      <a class="starter-btn" href="./Docs/index.html" target="_blank" rel="noopener noreferrer">Open folder ↗</a>
     </div>
   </section>
 </div>
