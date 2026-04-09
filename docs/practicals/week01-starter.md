@@ -9,12 +9,12 @@ Resources are grouped into two folders:
 
 ## Lab
 
-- Open folder: [Lab resources folder](./Lab/)
-- Direct download: [sys3labs.zip](./Lab/sys3labs.zip)
+- Open folder: [Lab resources folder](/practicals/Lab/index.html)
+- Direct download: [sys3labs.zip](/practicals/Lab/sys3labs.zip)
 
 ## Docs
 
-- Open folder: [Docs resources folder](./Docs/)
+- Open folder: [Docs resources folder](/practicals/Docs/index.html)
 
 ## How to use these resources
 

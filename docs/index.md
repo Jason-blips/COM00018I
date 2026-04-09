@@ -37,7 +37,7 @@ outline: false
       <th scope="col">Lecture Reviews</th>
       <th scope="col">Exercises</th>
       <th scope="col">Quizzes</th>
-      <th scope="col">Lab / Practical</th>
+      <th scope="col">Labs</th>
       <th scope="col">Assessment</th>
     </tr>
   </thead>
