@@ -55,7 +55,7 @@ outline: false
         </div>
       </td>
       <td><a class="schedule-link" href="lecture-reviews/week01.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="exercises/week01/" target="_blank" rel="noopener noreferrer">Open Folder<span class="ext" aria-hidden="true">&#8599;</span></a></td>
+      <td><a class="schedule-link" href="exercises/exercise01/" target="_blank" rel="noopener noreferrer">Open Folder<span class="ext" aria-hidden="true">&#8599;</span></a></td>
       <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
@@ -146,7 +146,7 @@ outline: false
         </div>
       </td>
       <td><a class="schedule-link" href="lecture-reviews/week05.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
-      <td><a class="schedule-link" href="exercises/week05/" target="_blank" rel="noopener noreferrer">Open Folder <span class="ext" aria-hidden="true">&#8599;</span></a></td>
+      <td><a class="schedule-link" href="exercises/exercise02/" target="_blank" rel="noopener noreferrer">Open Folder<span class="ext" aria-hidden="true">&#8599;</span></a></td>
       <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
