@@ -1,4 +1,4 @@
-# Week 1 Practical Overview
+# Preface: A New Start
 
 ## Important Points
 
@@ -47,14 +47,7 @@ If you fall behind, a useful strategy is:
 3. Re-read that week's lab sheet and map each step to the implementation.
 4. Bring focused questions to tutors/GTAs in the next session.
 
-## Preparation (Week 1)
 
-In Week 1, you are expected to:
-
-- watch the briefing video
-- read all supporting practical documentation
-- ensure you are familiar with how practical sessions operate
-- understand key requirements for success before the first supervised lab
 
 ## CCCP (Crash Course in C Programming)
 
