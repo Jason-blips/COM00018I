@@ -61,7 +61,7 @@ outline: false
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week01-overview" class="lec-title-link">Preface: A New Start</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week01-overview">Handout</a>
+          <a class="schedule-link" href="practicals/week01-handout">Handout</a>
           <a class="schedule-link" href="practicals/week01-starter">Starter</a>
         </div>
       </td>

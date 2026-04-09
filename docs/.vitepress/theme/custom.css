@@ -419,3 +419,50 @@
 .disc-cell .schedule-row-title {
   margin-bottom: 0.35rem;
 }
+
+/* Week 1 starter visual cards */
+.starter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.starter-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  padding: 1rem;
+  background: var(--vp-c-bg-soft);
+}
+
+.starter-card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+
+.starter-card p {
+  margin: 0 0 0.85rem;
+  color: var(--vp-c-text-2);
+}
+
+.starter-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.starter-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.65rem;
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
+  text-decoration: none;
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg);
+}
+
+.starter-btn:hover {
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-bg-elv);
+}
