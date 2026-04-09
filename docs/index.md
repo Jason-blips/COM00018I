@@ -59,10 +59,10 @@ outline: false
       <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
-        <div class="schedule-row-title"><a href="practicals/week01/" class="lec-title-link">Practical 1: Environment setup</a></div>
+        <div class="schedule-row-title"><a href="practicals/week01-overview" class="lec-title-link">Preface: A New Start</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week01/">Handout</a>
-          <a class="schedule-link" href="practicals/week01/">Starter</a>
+          <a class="schedule-link" href="practicals/week01-overview">Handout</a>
+          <a class="schedule-link" href="practicals/week01-starter">Starter</a>
         </div>
       </td>
       <td>-</td>
@@ -86,7 +86,7 @@ outline: false
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week02/" class="lec-title-link">Practical 2</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week02/">Instructions</a>
+          <a class="schedule-link" href="practicals/week02/">Handout</a>
         </div>
       </td>
       <td>-</td>
@@ -108,7 +108,7 @@ outline: false
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week03/" class="lec-title-link">Practical 3</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week03/">Instructions</a>
+          <a class="schedule-link" href="practicals/week03/">Handout</a>
         </div>
       </td>
       <td>-</td>
@@ -130,7 +130,7 @@ outline: false
         <div class="schedule-time-hint">11:00-13:00 ? CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week04/" class="lec-title-link">Practical 4</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week04/">Instructions</a>
+          <a class="schedule-link" href="practicals/week04/">Handout</a>
         </div>
       </td>
       <td>-</td>
@@ -152,7 +152,7 @@ outline: false
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week05/" class="lec-title-link">Practical 5</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week05/">Instructions</a>
+          <a class="schedule-link" href="practicals/week05/">Handout</a>
         </div>
       </td>
       <td>-</td>
@@ -174,7 +174,7 @@ outline: false
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week06/" class="lec-title-link">Practical 6</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week06/">Instructions</a>
+          <a class="schedule-link" href="practicals/week06/">Handout</a>
         </div>
       </td>
       <td>-</td>
@@ -196,7 +196,7 @@ outline: false
         <div class="schedule-time-hint">11:00-13:00 ? CSE/066</div>
         <div class="schedule-row-title"><a href="practicals/week07/" class="lec-title-link">Practical 7</a></div>
         <div class="schedule-actions">
-          <a class="schedule-link" href="practicals/week07/">Instructions</a>
+          <a class="schedule-link" href="practicals/week07/">Handout</a>
         </div>
       </td>
       <td>-</td>
