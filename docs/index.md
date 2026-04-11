@@ -150,7 +150,7 @@ outline: false
       <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
-        <div class="schedule-row-title"><a href="practicals/week05" class="lec-title-link">Lab 5: Practical-Structural Hazards (Memory)</a></div>
+        <div class="schedule-row-title"><a href="practicals/lab05" class="lec-title-link">Lab 5: Structural Hazards (Memory)</a></div>
         <div class="schedule-actions">
           <a class="schedule-link" href="practicals/week05/LabSheet.Week.5.pdf" target="_blank" rel="noopener noreferrer">Handout</a>
         </div>
