@@ -1,3 +1,17 @@
-# Lab 6: Practical-Data Hazards (Registers)
+# Lab 6: Data Hazards (Registers)
 
-Data hazards occur when the intended order of read and write operations is incorrectly altered, typically due to pipeline timing effects. This can occur in memory read/write sequences, and also in sequences of register reads and writes. Data Hazards involving memory can be quite complex to deal with and wont be covered in the practical sessions. In this case we are concerned only with register hazards, and the order of the register accesses that can occur due to pipeline effects. This results in multiple hazard types, RAW, WAR, and WAW. We will investigate how these occur and devise suitable solutions.
+## Overview
+
+**Data hazards** appear when the **intended order** of reads and writes is disturbed by pipeline timing. That can involve memory or registers; **memory data hazards are not covered** in these practicals.
+
+Here the focus is **register** hazards and the access orders the pipeline creates, including **RAW**, **WAR**, and **WAW** relationships.
+
+## This week
+
+- Identify register hazard patterns in given sequences.
+- Design and test approaches that preserve correct register semantics in the model.
+- Use the lab sheet to structure your experiments.
+
+## Materials
+
+- [Lab sheet (PDF)](week06/LabSheetWeek6.pdf)

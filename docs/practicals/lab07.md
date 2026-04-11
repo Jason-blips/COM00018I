@@ -1,3 +1,15 @@
-# Lab 7: Practical-Continuation of Week 6
+# Lab 7: Continuation of Lab 6
 
-In this week, we will continue working on solutions for Week6's lab tasks.
+## Overview
+
+This session extends **Lab 6** (register **data hazards**). You continue refining or completing the solutions and experiments you began the previous week.
+
+## This week
+
+- Finish outstanding Lab 6 tasks where needed.
+- Deepen your understanding of hazard cases you found difficult.
+- Prepare questions for tutors/GTAs on anything that blocked progress.
+
+## Materials
+
+- [Lab sheet (PDF)](week07/LabSheet.Week.7.pdf)

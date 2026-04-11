@@ -84,7 +84,7 @@ outline: false
       <td><a class="schedule-link" href="https://vle.york.ac.uk/" target="_blank" rel="noopener noreferrer">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
-        <div class="schedule-row-title"><a href="practicals/week02/" class="lec-title-link">Lab 2: Orientation Practical</a></div>
+        <div class="schedule-row-title"><a href="practicals/lab02" class="lec-title-link">Lab 2: Orientation Practical</a></div>
         <div class="schedule-actions">
           <a class="schedule-link" href="practicals/week02/LabSheetWeek2.pdf" target="_blank" rel="noopener noreferrer">Handout</a>
         </div>
@@ -106,7 +106,7 @@ outline: false
       <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
-        <div class="schedule-row-title"><a href="practicals/week03/" class="lec-title-link">Lab 3: Practical-Structural Hazards</a></div>
+        <div class="schedule-row-title"><a href="practicals/lab03" class="lec-title-link">Lab 3: Structural Hazards</a></div>
         <div class="schedule-actions">
           <a class="schedule-link" href="practicals/week03/LabSheet.Week.3.pdf" target="_blank" rel="noopener noreferrer">Handout</a>
         </div>
@@ -128,7 +128,7 @@ outline: false
       <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
-        <div class="schedule-row-title"><a href="practicals/week04/" class="lec-title-link">Lab 4: Structural Hazards (Continued)</a></div>
+        <div class="schedule-row-title"><a href="practicals/lab04" class="lec-title-link">Lab 4: Structural Hazards (Continued)</a></div>
         <div class="schedule-actions">
           <a class="schedule-link" href="practicals/week04/LabSheet.Week.4.pdf" target="_blank" rel="noopener noreferrer">Handout</a>
         </div>
@@ -172,7 +172,7 @@ outline: false
       <td><a class="schedule-link" href="https://vle.york.ac.uk/" target="_blank" rel="noopener noreferrer">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
-        <div class="schedule-row-title"><a href="practicals/week06/" class="lec-title-link">Lab 6: Practical-Data Hazards (Registers)</a></div>
+        <div class="schedule-row-title"><a href="practicals/lab06" class="lec-title-link">Lab 6: Data Hazards (Registers)</a></div>
         <div class="schedule-actions">
           <a class="schedule-link" href="practicals/week06/LabSheetWeek6.pdf" target="_blank" rel="noopener noreferrer">Handout</a>
         </div>
@@ -194,7 +194,7 @@ outline: false
       <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
-        <div class="schedule-row-title"><a href="practicals/week07/" class="lec-title-link">Lab 7: Practical-Continuation of Week 6</a></div>
+        <div class="schedule-row-title"><a href="practicals/lab07" class="lec-title-link">Lab 7: Continuation of Lab 6</a></div>
         <div class="schedule-actions">
           <a class="schedule-link" href="practicals/week07/LabSheet.Week.7.pdf" target="_blank" rel="noopener noreferrer">Handout</a>
         </div>
@@ -216,7 +216,7 @@ outline: false
       <td>-</td>
       <td class="lab-cell">
         <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
-        <div class="schedule-row-title"><a href="practicals/week08/" class="lec-title-link">Lab 8: Register Renaming</a></div>
+        <div class="schedule-row-title"><a href="practicals/lab08" class="lec-title-link">Lab 8: Register Renaming</a></div>
         <div class="schedule-actions">
           <a class="schedule-link" href="practicals/week08/LabSheet.Week.8.pdf" target="_blank" rel="noopener noreferrer">Handout</a>
         </div>
