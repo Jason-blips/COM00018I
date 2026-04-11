@@ -201,6 +201,28 @@ outline: false
       </td>
       <td>-</td>
     </tr>
+     <tr>
+      <td class="week-cell">8</td>
+      <td class="date-cell">Thu 16/04</td>
+      <td class="lec-cell">
+        <div class="schedule-time-hint">9:00-11:00  PZA/103</div>
+        <div class="schedule-row-title"><a href="lectures/week07" class="lec-title-link">S2 Week 8 - xxx</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="slides/week08/index.html" target="_blank" rel="noopener noreferrer">Slides</a>
+        </div>
+      </td>
+      <td><a class="schedule-link" href="lecture-reviews/week08.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
+      <td>-</td>
+      <td>-</td>
+      <td class="lab-cell">
+        <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
+        <div class="schedule-row-title"><a href="practicals/week08/" class="lec-title-link">Lab 8: Register Renaming</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="practicals/week08/LabSheet.Week.8.pdf" target="_blank" rel="noopener noreferrer">Handout</a>
+        </div>
+      </td>
+      <td>-</td>
+    </tr>
   </tbody>
 </table>
 
