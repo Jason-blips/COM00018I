@@ -206,7 +206,7 @@ outline: false
       <td class="date-cell">Thu 16/04</td>
       <td class="lec-cell">
         <div class="schedule-time-hint">9:00-11:00  PZA/103</div>
-        <div class="schedule-row-title"><a href="lectures/week07" class="lec-title-link">S2 Week 8 - xxx</a></div>
+        <div class="schedule-row-title"><a href="lectures/week08" class="lec-title-link">S2 Week 8 - Virtual Memory</a></div>
         <div class="schedule-actions">
           <a class="schedule-link" href="slides/week08/index.html" target="_blank" rel="noopener noreferrer">Slides</a>
         </div>
