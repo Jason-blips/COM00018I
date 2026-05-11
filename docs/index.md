@@ -223,11 +223,75 @@ outline: false
       </td>
       <td>-</td>
     </tr>
+    <tr>
+      <td class="week-cell">9</td>
+      <td class="date-cell">Thu 23/04</td>
+      <td class="lec-cell">
+        <div class="schedule-time-hint">9:00-11:00  PZA/103</div>
+        <div class="schedule-row-title"><a href="lectures/week09" class="lec-title-link">S2 Week 9 - Cache Introduction and Replacement Strategies</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="slides/week09/index.html" target="_blank" rel="noopener noreferrer">Slides</a>
+        </div>
+      </td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td class="lab-cell">
+        <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
+        <div class="schedule-row-title"><a href="practicals/lab09" class="lec-title-link">Lab 9: Instruction Reordering</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="practicals/week09/" target="_blank" rel="noopener noreferrer">Handout</a>
+        </div>
+      </td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td class="week-cell">10</td>
+      <td class="date-cell">Thu 30/04</td>
+      <td class="lec-cell">
+        <div class="schedule-time-hint">9:00-11:00  PZA/103</div>
+        <div class="schedule-row-title"><a href="lectures/week10" class="lec-title-link">S2 Week 10 - Cache Optimization Techniques</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="slides/week10/index.html" target="_blank" rel="noopener noreferrer">Slides</a>
+        </div>
+      </td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td class="lab-cell">
+        <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
+        <div class="schedule-row-title"><a href="practicals/lab10" class="lec-title-link">Lab 10: Power Trade-offs</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="practicals/week10/" target="_blank" rel="noopener noreferrer">Handout</a>
+        </div>
+      </td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td class="week-cell">11</td>
+      <td class="date-cell">Thu 07/05</td>
+      <td class="lec-cell">
+        <div class="schedule-time-hint">9:00-11:00  PZA/103</div>
+        <div class="schedule-row-title"><a href="lectures/week11" class="lec-title-link">S2 Week 11 - Review and Exam Preparation</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="slides/week11/index.html" target="_blank" rel="noopener noreferrer">Slides</a>
+        </div>
+      </td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td class="lab-cell">
+        <div class="schedule-time-hint">11:00-13:00  CSE/066</div>
+        <div class="schedule-row-title"><a href="practicals/lab11" class="lec-title-link">Lab 11: Catch-up and Revision</a></div>
+        <div class="schedule-actions">
+          <a class="schedule-link" href="practicals/week11/" target="_blank" rel="noopener noreferrer">Handout</a>
+        </div>
+      </td>
+      <td>-</td>
+    </tr>
   </tbody>
 </table>
 
 </div>
-
-
 
 

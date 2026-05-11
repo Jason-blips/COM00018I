@@ -63,7 +63,7 @@ function buildHtml(category, weekDirName, files) {
   </head>
   <body>
     <main class="wrap">
-      <a class="back" href="../../">← Back to course home</a>
+      <a class="back" href="../../">Back to course home</a>
       <h1>${escapeHtml(weekDirName)} ${escapeHtml(category.title)}</h1>
       <p>Files from <code>/docs/public/${escapeHtml(category.key)}/${escapeHtml(weekDirName)}</code>.</p>
       <ul>
@@ -109,4 +109,3 @@ main().catch((err) => {
   console.error(err)
   process.exit(1)
 })
-

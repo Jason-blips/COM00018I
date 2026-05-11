@@ -31,6 +31,7 @@ The schedule below is the current expected delivery pattern (subject to occasion
 8. Register renaming
 9. Instruction reordering
 10. Power trade-offs
+11. Catch-up and revision
 
 ## Solutions
 
