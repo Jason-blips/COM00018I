@@ -233,7 +233,7 @@ outline: false
           <a class="schedule-link" href="slides/week09/index.html" target="_blank" rel="noopener noreferrer">Slides</a>
         </div>
       </td>
-      <td>-</td>
+      <td><a class="schedule-link" href="lecture-reviews/week09.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
       <td>-</td>
       <td>-</td>
       <td class="lab-cell">
@@ -255,7 +255,7 @@ outline: false
           <a class="schedule-link" href="slides/week10/index.html" target="_blank" rel="noopener noreferrer">Slides</a>
         </div>
       </td>
-      <td>-</td>
+      <td><a class="schedule-link" href="lecture-reviews/week10.pdf">Open <span class="ext" aria-hidden="true">&#8599;</span></a></td>
       <td>-</td>
       <td>-</td>
       <td class="lab-cell">
@@ -293,5 +293,3 @@ outline: false
 </table>
 
 </div>
-
-
